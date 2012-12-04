@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E913874F166B9BD9009D3051 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E913874E166B9BD9009D3051 /* UIKit.framework */; };
+		E9138751166B9BD9009D3051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9138750166B9BD9009D3051 /* Foundation.framework */; };
+		E9138753166B9BD9009D3051 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9138752166B9BD9009D3051 /* CoreGraphics.framework */; };
+		E9138790166BA6C1009D3051 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E913878F166BA6C1009D3051 /* QuartzCore.framework */; };
+		E91387AA166BBA34009D3051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E913879C166BBA34009D3051 /* AppDelegate.m */; };
+		E91387AB166BBA34009D3051 /* FisrtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E913879D166BBA34009D3051 /* FisrtViewController.m */; };
+		E91387AC166BBA34009D3051 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E913879E166BBA34009D3051 /* BaseViewController.m */; };
+		E91387AD166BBA34009D3051 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E913879F166BBA34009D3051 /* SettingViewController.m */; };
+		E91387AE166BBA34009D3051 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91387A0166BBA34009D3051 /* SecondViewController.m */; };
+		E91387AF166BBA34009D3051 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91387A1166BBA34009D3051 /* ThirdViewController.m */; };
+		E91387B0166BBA34009D3051 /* DEBUG.m in Sources */ = {isa = PBXBuildFile; fileRef = E91387A9166BBA34009D3051 /* DEBUG.m */; };
+		E91387B3166BBA46009D3051 /* resource in Resources */ = {isa = PBXBuildFile; fileRef = E91387B2166BBA46009D3051 /* resource */; };
+		E91387BA166BBA59009D3051 /* UINavigationBar+DropShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = E91387B4166BBA59009D3051 /* UINavigationBar+DropShadow.m */; };
+		E91387BB166BBA59009D3051 /* Swizzle.c in Sources */ = {isa = PBXBuildFile; fileRef = E91387B5166BBA59009D3051 /* Swizzle.c */; };
+		E91387BC166BBA59009D3051 /* UINavigationBar+customizeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E91387B8166BBA59009D3051 /* UINavigationBar+customizeImage.m */; };
+		E91387C4166BBA76009D3051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E91387BF166BBA76009D3051 /* main.m */; };
+		E91387C5166BBA76009D3051 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E91387C0166BBA76009D3051 /* Default-568h@2x.png */; };
+		E91387C6166BBA76009D3051 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E91387C1166BBA76009D3051 /* Default.png */; };
+		E91387C7166BBA76009D3051 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E91387C2166BBA76009D3051 /* Default@2x.png */; };
+		E91387CC166BBAB7009D3051 /* ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E91387CB166BBAB7009D3051 /* ThemeManager.m */; };
+		E91387D6166BD579009D3051 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91387D5166BD578009D3051 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E913874A166B9BD9009D3051 /* SkinnedUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinnedUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E913874E166B9BD9009D3051 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9138750166B9BD9009D3051 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9138752166B9BD9009D3051 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E913878F166BA6C1009D3051 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E913879C166BBA34009D3051 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Example/src/AppDelegate.m; sourceTree = "<group>"; };
+		E913879D166BBA34009D3051 /* FisrtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FisrtViewController.m; path = Example/src/FisrtViewController.m; sourceTree = "<group>"; };
+		E913879E166BBA34009D3051 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Example/src/BaseViewController.m; sourceTree = "<group>"; };
+		E913879F166BBA34009D3051 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = Example/src/SettingViewController.m; sourceTree = "<group>"; };
+		E91387A0166BBA34009D3051 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = Example/src/SecondViewController.m; sourceTree = "<group>"; };
+		E91387A1166BBA34009D3051 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = Example/src/ThirdViewController.m; sourceTree = "<group>"; };
+		E91387A2166BBA34009D3051 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = Example/src/ThirdViewController.h; sourceTree = "<group>"; };
+		E91387A3166BBA34009D3051 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = Example/src/SecondViewController.h; sourceTree = "<group>"; };
+		E91387A4166BBA34009D3051 /* FisrtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FisrtViewController.h; path = Example/src/FisrtViewController.h; sourceTree = "<group>"; };
+		E91387A5166BBA34009D3051 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Example/src/AppDelegate.h; sourceTree = "<group>"; };
+		E91387A6166BBA34009D3051 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = Example/src/SettingViewController.h; sourceTree = "<group>"; };
+		E91387A7166BBA34009D3051 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Example/src/BaseViewController.h; sourceTree = "<group>"; };
+		E91387A8166BBA34009D3051 /* DEBUG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEBUG.h; path = Example/src/DEBUG.h; sourceTree = "<group>"; };
+		E91387A9166BBA34009D3051 /* DEBUG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEBUG.m; path = Example/src/DEBUG.m; sourceTree = "<group>"; };
+		E91387B2166BBA46009D3051 /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; name = resource; path = Example/resource; sourceTree = "<group>"; };
+		E91387B4166BBA59009D3051 /* UINavigationBar+DropShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+DropShadow.m"; path = "SkinnedUI/Example/contrib/UINavigationBar+DropShadow.m"; sourceTree = SOURCE_ROOT; };
+		E91387B5166BBA59009D3051 /* Swizzle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Swizzle.c; path = SkinnedUI/Example/contrib/Swizzle.c; sourceTree = SOURCE_ROOT; };
+		E91387B6166BBA59009D3051 /* Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Swizzle.h; path = SkinnedUI/Example/contrib/Swizzle.h; sourceTree = SOURCE_ROOT; };
+		E91387B7166BBA59009D3051 /* UINavigationBar+customizeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+customizeImage.h"; path = "SkinnedUI/Example/contrib/UINavigationBar+customizeImage.h"; sourceTree = SOURCE_ROOT; };
+		E91387B8166BBA59009D3051 /* UINavigationBar+customizeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+customizeImage.m"; path = "SkinnedUI/Example/contrib/UINavigationBar+customizeImage.m"; sourceTree = SOURCE_ROOT; };
+		E91387B9166BBA59009D3051 /* UINavigationBar+DropShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+DropShadow.h"; path = "SkinnedUI/Example/contrib/UINavigationBar+DropShadow.h"; sourceTree = SOURCE_ROOT; };
+		E91387BD166BBA76009D3051 /* SkinnedUI-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SkinnedUI-Prefix.pch"; path = "Example/misc/SkinnedUI-Prefix.pch"; sourceTree = "<group>"; };
+		E91387BE166BBA76009D3051 /* SkinnedUI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SkinnedUI-Info.plist"; path = "Example/misc/SkinnedUI-Info.plist"; sourceTree = "<group>"; };
+		E91387BF166BBA76009D3051 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/misc/main.m; sourceTree = "<group>"; };
+		E91387C0166BBA76009D3051 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Example/misc/Default-568h@2x.png"; sourceTree = "<group>"; };
+		E91387C1166BBA76009D3051 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Example/misc/Default.png; sourceTree = "<group>"; };
+		E91387C2166BBA76009D3051 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Example/misc/Default@2x.png"; sourceTree = "<group>"; };
+		E91387CA166BBAB7009D3051 /* ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeManager.h; sourceTree = "<group>"; };
+		E91387CB166BBAB7009D3051 /* ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeManager.m; sourceTree = "<group>"; };
+		E91387D5166BD578009D3051 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9138747166B9BD9009D3051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91387D6166BD579009D3051 /* SystemConfiguration.framework in Frameworks */,
+				E9138790166BA6C1009D3051 /* QuartzCore.framework in Frameworks */,
+				E913874F166B9BD9009D3051 /* UIKit.framework in Frameworks */,
+				E9138751166B9BD9009D3051 /* Foundation.framework in Frameworks */,
+				E9138753166B9BD9009D3051 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E913873F166B9BD9009D3051 = {
+			isa = PBXGroup;
+			children = (
+				E91387C9166BBAA1009D3051 /* ThemeManager */,
+				E9138754166B9BD9009D3051 /* SkinnedUI */,
+				E913874D166B9BD9009D3051 /* Frameworks */,
+				E913874B166B9BD9009D3051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E913874B166B9BD9009D3051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E913874A166B9BD9009D3051 /* SkinnedUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E913874D166B9BD9009D3051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E91387D5166BD578009D3051 /* SystemConfiguration.framework */,
+				E913878F166BA6C1009D3051 /* QuartzCore.framework */,
+				E913874E166B9BD9009D3051 /* UIKit.framework */,
+				E9138750166B9BD9009D3051 /* Foundation.framework */,
+				E9138752166B9BD9009D3051 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9138754166B9BD9009D3051 /* SkinnedUI */ = {
+			isa = PBXGroup;
+			children = (
+				E91387A8166BBA34009D3051 /* DEBUG.h */,
+				E91387A9166BBA34009D3051 /* DEBUG.m */,
+				E91387A5166BBA34009D3051 /* AppDelegate.h */,
+				E913879C166BBA34009D3051 /* AppDelegate.m */,
+				E91387A7166BBA34009D3051 /* BaseViewController.h */,
+				E913879E166BBA34009D3051 /* BaseViewController.m */,
+				E91387A4166BBA34009D3051 /* FisrtViewController.h */,
+				E913879D166BBA34009D3051 /* FisrtViewController.m */,
+				E91387A3166BBA34009D3051 /* SecondViewController.h */,
+				E91387A0166BBA34009D3051 /* SecondViewController.m */,
+				E91387A2166BBA34009D3051 /* ThirdViewController.h */,
+				E91387A1166BBA34009D3051 /* ThirdViewController.m */,
+				E91387A6166BBA34009D3051 /* SettingViewController.h */,
+				E913879F166BBA34009D3051 /* SettingViewController.m */,
+				E9138773166B9CAA009D3051 /* contrib */,
+				E91387B2166BBA46009D3051 /* resource */,
+				E9138755166B9BD9009D3051 /* Supporting Files */,
+			);
+			path = SkinnedUI;
+			sourceTree = "<group>";
+		};
+		E9138755166B9BD9009D3051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E91387BD166BBA76009D3051 /* SkinnedUI-Prefix.pch */,
+				E91387BE166BBA76009D3051 /* SkinnedUI-Info.plist */,
+				E91387BF166BBA76009D3051 /* main.m */,
+				E91387C0166BBA76009D3051 /* Default-568h@2x.png */,
+				E91387C1166BBA76009D3051 /* Default.png */,
+				E91387C2166BBA76009D3051 /* Default@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9138773166B9CAA009D3051 /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				E91387B5166BBA59009D3051 /* Swizzle.c */,
+				E91387B6166BBA59009D3051 /* Swizzle.h */,
+				E91387B7166BBA59009D3051 /* UINavigationBar+customizeImage.h */,
+				E91387B8166BBA59009D3051 /* UINavigationBar+customizeImage.m */,
+				E91387B9166BBA59009D3051 /* UINavigationBar+DropShadow.h */,
+				E91387B4166BBA59009D3051 /* UINavigationBar+DropShadow.m */,
+			);
+			path = contrib;
+			sourceTree = "<group>";
+		};
+		E91387C9166BBAA1009D3051 /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				E91387CA166BBAB7009D3051 /* ThemeManager.h */,
+				E91387CB166BBAB7009D3051 /* ThemeManager.m */,
+			);
+			path = ThemeManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9138749166B9BD9009D3051 /* SkinnedUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E913876E166B9BD9009D3051 /* Build configuration list for PBXNativeTarget "SkinnedUI" */;
+			buildPhases = (
+				E9138746166B9BD9009D3051 /* Sources */,
+				E9138747166B9BD9009D3051 /* Frameworks */,
+				E9138748166B9BD9009D3051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkinnedUI;
+			productName = SkinnedUI;
+			productReference = E913874A166B9BD9009D3051 /* SkinnedUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9138741166B9BD9009D3051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = QFish;
+			};
+			buildConfigurationList = E9138744166B9BD9009D3051 /* Build configuration list for PBXProject "SkinnedUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E913873F166B9BD9009D3051;
+			productRefGroup = E913874B166B9BD9009D3051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9138749166B9BD9009D3051 /* SkinnedUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9138748166B9BD9009D3051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91387B3166BBA46009D3051 /* resource in Resources */,
+				E91387C5166BBA76009D3051 /* Default-568h@2x.png in Resources */,
+				E91387C6166BBA76009D3051 /* Default.png in Resources */,
+				E91387C7166BBA76009D3051 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9138746166B9BD9009D3051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91387AA166BBA34009D3051 /* AppDelegate.m in Sources */,
+				E91387AB166BBA34009D3051 /* FisrtViewController.m in Sources */,
+				E91387AC166BBA34009D3051 /* BaseViewController.m in Sources */,
+				E91387AD166BBA34009D3051 /* SettingViewController.m in Sources */,
+				E91387AE166BBA34009D3051 /* SecondViewController.m in Sources */,
+				E91387AF166BBA34009D3051 /* ThirdViewController.m in Sources */,
+				E91387B0166BBA34009D3051 /* DEBUG.m in Sources */,
+				E91387BA166BBA59009D3051 /* UINavigationBar+DropShadow.m in Sources */,
+				E91387BB166BBA59009D3051 /* Swizzle.c in Sources */,
+				E91387BC166BBA59009D3051 /* UINavigationBar+customizeImage.m in Sources */,
+				E91387C4166BBA76009D3051 /* main.m in Sources */,
+				E91387CC166BBAB7009D3051 /* ThemeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E913876C166B9BD9009D3051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E913876D166B9BD9009D3051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E913876F166B9BD9009D3051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkinnedUI/Example/misc/SkinnedUI-Prefix.pch";
+				INFOPLIST_FILE = "SkinnedUI/Example/misc/SkinnedUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9138770166B9BD9009D3051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkinnedUI/Example/misc/SkinnedUI-Prefix.pch";
+				INFOPLIST_FILE = "SkinnedUI/Example/misc/SkinnedUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9138744166B9BD9009D3051 /* Build configuration list for PBXProject "SkinnedUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E913876C166B9BD9009D3051 /* Debug */,
+				E913876D166B9BD9009D3051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E913876E166B9BD9009D3051 /* Build configuration list for PBXNativeTarget "SkinnedUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E913876F166B9BD9009D3051 /* Debug */,
+				E9138770166B9BD9009D3051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9138741166B9BD9009D3051 /* Project object */;
+}

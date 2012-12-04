@@ -1,0 +1,28 @@
+//
+// Prefix header for all source files of the 'SkinnedUI' target in the 'SkinnedUI' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+
+    // contrib
+#import "Swizzle.h"
+#import "UINavigationBar+DropShadow.h"
+#import "UINavigationBar+customizeImage.h"
+
+    //projects
+#import "DEBUG.h"
+#import "ThemeManager.h"
+#import "BaseViewController.h"
+
+
+#endif
