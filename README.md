@@ -3,4 +3,4 @@ SkinnedUI
 
 A demo of changging theme/skin.
 
-![ImageOne](https://github.com/qfish/qfish.github.com/blob/master/images/bkground4.jpg?raw=true)
+![ImageOne](http://img.bimg.126.net/photo/0Zp2fyrUxlHyUEqEwGAG8Q==/3947968023360445390.jpg)
