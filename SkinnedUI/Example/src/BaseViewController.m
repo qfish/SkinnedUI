@@ -40,16 +40,12 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
-    MARK;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    MARK;
-    
+        
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     [self initViews];
